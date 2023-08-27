@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+ 
+<body>
+
+
+  
+ 
+  
+
+<div class="area">
+    <h1 class="h1class">CALCULATOR</h1>
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+           
+<br><br><br><br>
+<br><br>
+<table class="calculator" >
+  <tr>
+    <td colspan="3"> <input class="calculator-box" type="text" id="result" disabled /> </td>
+ 
+    
+    <td> <input type="btn" value="C" onclick="clearScreenFunc()" id="btnid" /> </td>
+  </tr>
+  <tr>
+    
+    <td> <input type="btn" value="1" onclick="displayFunc('1')" /> </td>
+    <td> <input type="btn" value="2" onclick="displayFunc('2')" /> </td>
+    <td> <input type="btn" value="3" onclick="displayFunc('3')" /> </td>
+    <td> <input type="btn" value="/" onclick="displayFunc('/')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="btn" value="4" onclick="displayFunc('4')" /> </td>
+    <td> <input type="btn" value="5" onclick="displayFunc('5')" /> </td>
+    <td> <input type="btn" value="6" onclick="displayFunc('6')" /> </td>
+    <td> <input type="btn" value="-" onclick="displayFunc('-')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="btn" value="7" onclick="displayFunc('7')" /> </td>
+    <td> <input type="btn" value="8" onclick="displayFunc('8')" /> </td>
+    <td> <input type="btn" value="9" onclick="displayFunc('9')" /> </td>
+    <td> <input type="btn" value="+" onclick="displayFunc('+')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="btn" value="." onclick="displayFunc('.')" /> </td>
+    <td> <input type="btn" value="0" onclick="displayFunc('0')" /> </td>
+ 
+  
+    <td> <input type="btn" value="=" onclick="calculateFunc()" id="btnid" /> </td>
+    <td> <input type="btn" value="*" onclick="displayFunc('*')" /> </td>
+  </tr>
+</table>
+</ul>
+</div>
+
+
+ 
+<script type="text/javascript" src="script.js"></script>
+ 
+</body>
+ 
+</html>
